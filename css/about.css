@@ -1,3 +1,6 @@
+:root {
+    font-size: 1.2em;
+}
 body {
     background-color: rgb(237, 237, 237);
 }
@@ -28,6 +31,17 @@ nav a:hover {
     background-color: rgb(161, 197, 233);
 }
 
+section{
+    padding: 10px;
+   
+}
+
 section#table {
     background-color: rgb(231, 231, 231);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(212, 225, 245);
 }
