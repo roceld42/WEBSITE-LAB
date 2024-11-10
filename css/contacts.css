@@ -1,32 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gowun+Dodum&family=Oswald:wght@200..700&display=swap');
 :root {
     font-size: 1.2em;
 }
 body {
     background-color: rgb(237, 237, 237);
+    margin: 0px;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    float: left;
+    margin: 20px;
 }
 
 header {
     background-color: rgb(212, 225, 245);
     color: rgb(57, 60, 60);
-    padding: 20px;
+    padding: 5px 12%;
     text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav ul {
+    float: right;
+    list-style-type: none;
+    background-color: rgb(212, 225, 245);
+    padding: 0px; 
+    margin: 0px;
+    overflow: hidden;
     display: flex;
-    list-style: none;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
 }
 
 nav a {
-    border-radius: 5px;
     color: rgb(8, 80, 142);
-    padding: 1em;
     text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
 }
 
 nav a:hover {
     background-color: rgb(161, 197, 233);
-} 
+}
+
+h1 {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
