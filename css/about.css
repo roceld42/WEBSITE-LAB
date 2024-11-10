@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gowun+Dodum&family=Oswald:wght@200..700&display=swap');
 :root {
     font-size: 1.2em;
 }
@@ -31,13 +32,29 @@ nav a:hover {
     background-color: rgb(161, 197, 233);
 }
 
+h1, h2, h3, h4 {
+    font-family: "Gowun Dodum", sans-serif;
+        font-weight: 1000;
+        font-style: normal;
+}
+
 section{
     padding: 10px;
-   
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 section#table {
     background-color: rgb(231, 231, 231);
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+}
+
+th {
+    font-weight: bolder;
 }
 
 footer {
