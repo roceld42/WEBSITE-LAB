@@ -114,11 +114,3 @@ footer {
     background-color: rgb(194, 227, 255);
     color: rgb(57, 60, 60);
 }
-
-/* Media Queries */
-
-@media (width <= 768px) {
-    body {
-        flex-direction: column;
-    }
-}
