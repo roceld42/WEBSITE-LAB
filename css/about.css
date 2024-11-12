@@ -108,3 +108,47 @@ footer {
     background-color: rgb(194, 227, 255);
     color: rgb(57, 60, 60);
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+    h1, h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    nav {
+        font-size: 1em;
+    }
+    p {
+        font-size: 1em;
+    }
+    li {
+        font-size: 0.8em;
+    }
+    section#table {
+        width: auto;
+        font-size: 0.8em;
+    }
+    small {
+        font-size: 0.6em;
+    }
+    .aboutrow {
+        width: 40%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 665px) {
+    body {
+        font-size: 1em
+    }
+    section#table {
+        font-size: 0.5em;
+    }
+}
