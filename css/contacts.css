@@ -65,7 +65,7 @@ nav {
 
 /* Section */
 
-section {
+main section {
     text-align: center;
     background-color: rgb(203, 229, 245);
     margin: 30px auto;
@@ -78,18 +78,18 @@ section {
 }
 
 /* Links 
-source: https://www.w3schools.com/css/css_link.asp */
+source: W3schools.com."CSS Styling Links." (n.d.). Accessed: Nov. 11, 2024. [Online] Available:https://www.w3schools.com/css/css_link.asp */
 
-a:link {
+.b:link {
     text-decoration: none;
     color: rgb(24, 80, 128);
 }
 
-a:visited {
+.b:visited {
     color: rgb(24, 80, 128);
 }
 
-a:hover {
+.b:hover {
     text-decoration: underline;
 }
 
