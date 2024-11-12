@@ -63,18 +63,39 @@ nav {
     font-style: normal;
 }
 
+/* Section */
+
 section {
     text-align: center;
-    background-color: rgb(119, 196, 241);
-    margin: auto;
+    background-color: rgb(203, 229, 245);
+    margin: 30px auto;
     width: 50%;
     border: 5px solid rgb(246, 241, 241);
     padding: 10px;
     color: rgb(24, 80, 128);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 200px;
+}
+
+/* Links 
+source: https://www.w3schools.com/css/css_link.asp */
+
+a:link {
+    text-decoration: none;
+    color: rgb(24, 80, 128);
+}
+
+a:visited {
+    color: rgb(24, 80, 128);
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
     background-color: rgb(194, 227, 255);
+    color: rgb(57, 60, 60);
 }
